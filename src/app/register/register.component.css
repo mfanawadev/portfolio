@@ -1,0 +1,16 @@
+.register-outer {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+.register-component {
+    text-align: center;
+    justify-content: center;
+}
+
+
+

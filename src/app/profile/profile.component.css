@@ -1,0 +1,32 @@
+.profile-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+.anonymous {
+    width: 200px;
+    height: 200px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.label {
+    font-weight: bold;
+    background-color: #f9f9f9;
+}

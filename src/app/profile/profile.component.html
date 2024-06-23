@@ -1,0 +1,27 @@
+<div class="profile-component">
+    <p class="text-color">myStudent Profile</p>
+    <img src="/anonymous.jpeg" alt="Anonymous icon" class="anonymous">
+    <table>
+        <tr>
+            <td class="label">Student Number</td>
+            <td>{{profile?.students?.studentNumber}}</td>
+        </tr>
+        <tr>
+            <td class="label">First Name</td>
+            <td>{{profile?.students?.firstName}}</td>
+        </tr>
+        <tr>
+            <td class="label">Last Name</td>
+            <td>{{profile?.students?.lastName}}</td>
+        </tr>
+        <tr>
+            <td class="label">Email Address</td>
+            <td>{{profile?.students?.email}}</td>
+        </tr>
+        <tr>
+            <td class="label">Contact Number</td>
+            <td>{{profile?.students?.mobile}}</td>
+        </tr>
+    </table>
+    <button class="upate-button" type="submit" (click)="updatePassword()">Update Password</button>
+</div>
